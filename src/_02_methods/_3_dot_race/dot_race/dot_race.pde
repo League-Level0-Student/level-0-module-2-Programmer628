@@ -9,7 +9,7 @@
    * *****************/
   boolean canPlaySounds = true;
 
-int x;
+int x = 50;
 
 void setup() {
     size(800, 200);
