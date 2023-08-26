@@ -33,7 +33,7 @@
       //7.  Use an if statement to check if your distance variable is < the radius of the ellipse
       //    If it is, make a new x AND y for the ellipse, for a new random location on the window
       //    Hint: Use code like this      x = (int) random(width);
-       if(distance <200){
+       if(distance <15){
         x =(int) random(width);
        }
       

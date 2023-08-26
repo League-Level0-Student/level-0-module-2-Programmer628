@@ -17,9 +17,9 @@ public class StringsCannotAdd {
 			// Did you notice 46 instead of 4 + 6 = 10?
 			
 			// 5) Ask the user to enter number 5 and hold it in the variable fiveAsString 
-			String fiveAsString = JOptionPane.show
+			String fiveAsString = JOptionPane.showInputDialog("enter number 5.");
 			// 6) Print the addition of the variables fourAsString, sixAsString, and fiveAsString 
-			
+			System.out.println(fourAsString + sixAsString + fiveAsString);
 			//Did you notice 456 instead of 4 + 6 + 5 = 15?
 			
 			// Insert fourAsString inside the parenthesis of Integer.parseInt() and set the method equal to fourAsInt
